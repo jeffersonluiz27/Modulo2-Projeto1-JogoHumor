@@ -3,65 +3,57 @@
 *{
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
-html, body{
-  height: 100%;
+body#content{
+  background-color: #fdd900;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.main-header .container{
+header{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.container{
-  max-width: 100%;
-  padding: 20px;
-  margin: 0 auto;
-
-}
-
-.main-header{
-  /* background-color: #575f5f; */
-  color: rgb(0, 0, 0);
-  box-shadow: 0 2px 18px 0 rgb(141, 147, 151);
+  box-shadow: 0 .2rem 1.2rem 0 rgb(141, 147, 151);
   box-sizing: border-box;
   flex-direction: row;
   width: 100%;
+  height:auto;
 }
 
-.title{
+h1{
   font-size: 5rem;
   font-weight: 600;
 }
 
-body,#corpo{
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  background-color:#fdd900;
+header div{
+  padding: 1.2rem;
+  margin: 0 auto;
 }
 
-.main{
+main{
   flex: 1;
   margin-top: 4rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  height:auto;
 }
 
-.section-img{
-  margin-bottom: 10px;
+section#section-img{
+  margin-bottom: .8rem;
 }
 
-.section-status{
-  margin-bottom: 50px;
+section#section-status{
+  margin-bottom: 3.5rem;
 }
 
 #butonChange{
@@ -71,28 +63,30 @@ body,#corpo{
   background-color: rgb(110, 110, 110);
   border: 2px solid rgb(115, 115, 116);
   border-radius: 2rem;
-  transition: all .5s ease-out;
   cursor: pointer;
+  transition: transform .5s ease-in-out;
 }
 
-.footer{
+#butonChange:hover{
+  transform: scale(1.1);
+  
+}
+
+footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  color: rgb(255, 255, 255);
-  background-color: #757575;
-  bottom: 0;
-  height: 60px;
+  justify-content: space-between;
+  background-color:#757575;
+  height: 2.7rem;
   width: 100%;
-  /* margin-bottom: 1px; */
-
+  color: rgb(255, 255, 255);
 }
 
 .footer-text{
   margin: 1rem;
 }
 
-.link{
+#link{
   color: rgb(255, 255, 255);
 }
