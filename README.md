@@ -1,5 +1,10 @@
 # Projeto 1 - Jogo do Humor
 
+Esse é um jogo muito simples. Nós iremos utilizar HTML, CSS e JavaScript para criar um jogo que através de um botão, altere o humor de algum personagem, não necessariamente precisa ser o humor, mas é necessário que façamos a alteração das informações na tela.
+
+Crie todo o estilo da sua página, seja criativo, e use tudo o que você já conhece para criar uma página divertida! 
+
+
 ### O que será avaliado?
  - Criação do repositório exclusivo no GitHub.
  - Utilização de HTML, CSS e JS puros, sem utilização de framework.
